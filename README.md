@@ -12,11 +12,11 @@ Implement data structures from scratch (also writing tests). Implement each data
 Este proyecto fue creado por [Luis Felipe Taddey Espinosa](https://github.com/SeelePifer) como parte de práctica a las estructuras de datos hechas a mano.
 
 # Acerca de mí
-[Corta biografía sobre ti: quién eres, cuáles son tus intereses, qué te gusta programar, etc.]
+Java passionate developer
 
 ## Contacto
 Si tienes alguna pregunta o sugerencia acerca del proyecto, o simplemente quieres ponerte en contacto, puedes hacerlo a través de los siguientes medios:
 
-### Email: [seelepifer@gmai.com]
+### Email: [seelepifer@gmail.com]
 ### Twitter: [@LuisTaddey](https://twitter.com/LuisTaddey)
-### LinkedIn: [tu perfil de LinkedIn](https://www.linkedin.com/in/luis-felipe-taddey-espinosa-4336691a1/)
+### LinkedIn: [Luis Felipe Taddey](https://www.linkedin.com/in/luis-felipe-taddey-espinosa-4336691a1/)
