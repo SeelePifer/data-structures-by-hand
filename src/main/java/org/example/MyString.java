@@ -20,6 +20,7 @@ public class MyString {
     }
     public int compareTo(MyString other){
         int minLenght = Math.min(length, other.length);
+        //linear
 
         for(int i = 0; i < minLenght; i++) {
           if(characters[i] != other.characters[i]){
@@ -31,6 +32,7 @@ public class MyString {
     public MyString[] split(int chunkSize){
         int numChunk = (int) Math.ceil( (double) length / chunkSize);
         MyString[] chunks = new MyString[numChunk];
+        //linear
         for(int i = 0; i < numChunk; i++) {
           int start = i * chunkSize;
           int end = Math.min(start + chunkSize, length);
@@ -45,6 +47,7 @@ public class MyString {
              return 0;
          }
          outer:
+         //quadratic time
          for(int i = 0; i < length - targetLenght + 1; i++) {
            for(int j = 0; j < targetLenght; j++) {
              if(characters[i + j] != target.characters[j]){
