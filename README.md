@@ -1,8 +1,9 @@
 Implement data structures from scratch (also writing tests). Implement each data structure as a new class (MyString, MyLinkedList, MyStack etc.).
 
-1. String class
-2. Linked List
-3. Stack
+1. [String class](https://github.com/SeelePifer/data-structures-by-hand/blob/main/src/main/java/org/example/MyString.java)
+2. [Linked List](https://github.com/SeelePifer/data-structures-by-hand/blob/main/src/main/java/org/example/MyLinkedList.java)
+3. [Stack with ArrayList](https://github.com/SeelePifer/data-structures-by-hand/blob/main/src/main/java/org/example/StackFromArray.java)
+4. [Stack with LinkedList](https://github.com/SeelePifer/data-structures-by-hand/blob/main/src/main/java/org/example/StackFromList.java)
 4. Queue
 5. HashTable with Array
 6. Binary Tree
