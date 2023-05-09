@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.ArrayList;
 
-public class StackFromArray<T>{
+public final class StackFromArray<T>{
     private final ArrayList<T> elements = new ArrayList<>();
 
     public void push(T value){

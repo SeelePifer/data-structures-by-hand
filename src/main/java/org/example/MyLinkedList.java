@@ -10,7 +10,7 @@ class Node{
         this.next = node;
     }
 }
-public class MyLinkedList {
+public final class MyLinkedList {
 
     Node head;
     int size;

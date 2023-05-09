@@ -1,7 +1,7 @@
 package org.example;
 
 
-public class StackFromList<T> {
+public final class StackFromList<T> {
 
     private NodeForStack<T> top;
 

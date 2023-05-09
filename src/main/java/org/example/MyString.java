@@ -2,7 +2,7 @@ package org.example;
 
 
 
-public class MyString {
+public final class MyString {
 
     private final int[] characters;
     private final int length;

@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.ArrayList;
 
-public class QueueFromArray <T>{
+public final class QueueFromArray <T>{
 
     private ArrayList<T> items;
 

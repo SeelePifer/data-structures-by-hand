@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.LinkedList;
 
-public class QueueFromList <T>{
+public final class QueueFromList <T>{
 
     private LinkedList<T> items;
     public QueueFromList() {
