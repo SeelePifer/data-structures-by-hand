@@ -3,8 +3,14 @@ package org.example;
 import org.junit.jupiter.api.Test;
 
 import static junit.framework.Assert.assertEquals;
+import static junit.framework.Assert.assertTrue;
 
 public class MyLinkedListTest {
+    @Test
+    public void canCreateMyLinkedList(){
+        MyLinkedList list = new MyLinkedList();
+        assertTrue(list != null);
+    }
     @Test
     public void test() {
         MyLinkedList list = new MyLinkedList();

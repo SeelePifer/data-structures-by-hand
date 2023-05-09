@@ -1,5 +1,6 @@
 package org.example;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.Optional;
@@ -9,6 +10,11 @@ import static junit.framework.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class StackFromListTest {
+    @Test
+    public void canCreateStack(){
+        StackFromList<Integer> stack = new StackFromList<>();
+        Assertions.assertTrue(stack != null);
+    }
     @Test
     public void testPushPop() {
         StackFromList<Integer> stack = new StackFromList<>();

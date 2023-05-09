@@ -7,6 +7,12 @@ import static org.junit.jupiter.api.Assertions.*;
 public class QueueFromArrayTest {
 
     @Test
+    public void canCreateMyQueue(){
+        QueueFromArray<Integer> queue = new QueueFromArray<>();
+        assertTrue(queue != null);
+    }
+
+    @Test
     public void testEnqueue() {
         QueueFromArray<Integer> queue = new QueueFromArray<>();
         queue.enqueue(1);

@@ -5,6 +5,12 @@ import org.junit.jupiter.api.Test;
 import static junit.framework.Assert.*;
 
 public class MyStringTest {
+
+    @Test
+    public void canCreateMyString(){
+        MyString str1 = new MyString("Hi");
+        assertTrue(str1 != null);
+    }
     @Test
     public void testConcat(){
         MyString str1 = new MyString("Hello");

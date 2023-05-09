@@ -5,6 +5,12 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class StackFromArrayTest {
+
+    @Test
+    public void canCreateStack(){
+        StackFromArray<Integer> stack = new StackFromArray<>();
+        assertTrue(stack != null);
+    }
     @Test
     public void testPushPop() {
         StackFromArray<Integer> stack = new StackFromArray<>();

@@ -7,6 +7,11 @@ import static org.junit.jupiter.api.Assertions.*;
 public class QueueFromListTest {
 
     @Test
+    public void canCreateMyQueue(){
+        QueueFromList<Integer> queue = new QueueFromList<>();
+        assertTrue(queue != null);
+    }
+    @Test
     public void testEnqueue() {
         QueueFromList<Integer> queue = new QueueFromList<>();
         queue.enqueue(1);
