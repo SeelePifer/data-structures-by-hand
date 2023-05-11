@@ -9,7 +9,8 @@ Implement data structures from scratch (also writing tests). Implement each data
 5. [HashTable with Array](https://github.com/SeelePifer/data-structures-by-hand/blob/main/src/main/java/org/example/HashTableFromArray.java)
 6. [HashTable with Chaining](https://github.com/SeelePifer/data-structures-by-hand/blob/main/src/main/java/org/example/HashTableFromChaining.java)
 7. [HashTable with Open Addresing](https://github.com/SeelePifer/data-structures-by-hand/blob/main/src/main/java/org/example/HashTableFromOpenAdressing.java)
-6. Binary Tree
+6. [Binary Tree from Array](https://github.com/SeelePifer/data-structures-by-hand/blob/main/src/main/java/org/example/BinaryTreeFromArray.java)
+7. [Binary Tree with Nodes](https://github.com/SeelePifer/data-structures-by-hand/blob/main/src/main/java/org/example/BinaryTreeWithNodes.java)
 7. Min Heap with Array
 
 # Creador
