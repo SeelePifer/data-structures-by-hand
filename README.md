@@ -6,7 +6,9 @@ Implement data structures from scratch (also writing tests). Implement each data
 4. [Stack with LinkedList](https://github.com/SeelePifer/data-structures-by-hand/blob/main/src/main/java/org/example/StackFromList.java)
 4. [Queue with ArrayList](https://github.com/SeelePifer/data-structures-by-hand/blob/main/src/main/java/org/example/QueueFromArray.java)
 5. [Queue with LinkedList](https://github.com/SeelePifer/data-structures-by-hand/blob/main/src/main/java/org/example/QueueFromList.java)
-5. HashTable with Array
+5. [HashTable with Array](https://github.com/SeelePifer/data-structures-by-hand/blob/main/src/main/java/org/example/HashTableFromArray.java)
+6. [HashTable with Chaining](https://github.com/SeelePifer/data-structures-by-hand/blob/main/src/main/java/org/example/HashTableFromChaining.java)
+7. [HashTable with Open Addresing](https://github.com/SeelePifer/data-structures-by-hand/blob/main/src/main/java/org/example/HashTableFromOpenAdressing.java)
 6. Binary Tree
 7. Min Heap with Array
 
