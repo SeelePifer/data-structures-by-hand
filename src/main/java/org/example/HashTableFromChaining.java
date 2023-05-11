@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.LinkedList;
 
-public class HashTableFromChaining {
+public final class HashTableFromChaining {
     private final int SIZE = 10;
     private LinkedList<HashTableFromArray.Entry>[] table;
 

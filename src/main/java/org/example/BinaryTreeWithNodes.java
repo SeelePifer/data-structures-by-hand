@@ -1,6 +1,6 @@
 package org.example;
 
-public class BinaryTreeWithNodes {
+public final class BinaryTreeWithNodes {
     private Node root;
 
     public BinaryTreeWithNodes() {

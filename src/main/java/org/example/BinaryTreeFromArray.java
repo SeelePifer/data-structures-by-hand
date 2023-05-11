@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.ArrayList;
 
-public class BinaryTreeFromArray {
+public final class BinaryTreeFromArray {
     private ArrayList<Integer> tree;
 
 

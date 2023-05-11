@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.ArrayList;
 
-public class MinHeap {
+public final class MinHeap {
     private ArrayList<Integer> heap;
 
     public MinHeap(){

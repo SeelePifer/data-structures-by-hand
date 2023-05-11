@@ -1,6 +1,6 @@
 package org.example;
 
-public class HashTableFromOpenAdressing {
+public final class HashTableFromOpenAdressing {
     private final int SIZE = 10;
     private Object[] table;
 

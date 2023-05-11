@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.ArrayList;
 
-public class HashTableFromArray {
+public final class HashTableFromArray {
     private final int SIZE = 10;
     private ArrayList<ArrayList<Entry>> table;
 
