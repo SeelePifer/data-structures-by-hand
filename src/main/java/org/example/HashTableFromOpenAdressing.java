@@ -7,7 +7,7 @@ public final class HashTableFromOpenAdressing {
     public HashTableFromOpenAdressing(){
         table = new Object[SIZE];
     }
-    public void put(Object key, Object value) {
+    public void put(Object key, Object value) { //O(n)
         int index = key.hashCode() % SIZE;
         int i = 1;
         while (table[index] != null) {
@@ -20,7 +20,7 @@ public final class HashTableFromOpenAdressing {
         }
         table[index] = new HashTableFromArray.Entry(key, value);
     }
-    public Object get(Object key) {
+    public Object get(Object key) { //O(n)
         int index = key.hashCode() % SIZE;
         int i = 1;
         while (table[index] != null) {

@@ -23,7 +23,7 @@ public final class BinaryTreeWithNodes {
         root = add(root, data);
     }
 
-    private Node add(Node node, int data) {
+    private Node add(Node node, int data) { //O(log(n) because its balanced
         if (node == null) {
             node = new Node(data);
         } else if (data < node.data) {
@@ -38,7 +38,7 @@ public final class BinaryTreeWithNodes {
         return search(root, data);
     }
 
-    private boolean search(Node node, int data) {
+    private boolean search(Node node, int data) { //O(log(n) because its balanced and /2 iterations
         if (node == null) {
             return false;
         } else if (node.data == data) {

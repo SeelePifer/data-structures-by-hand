@@ -13,13 +13,13 @@ public final class StackFromArray<T>{
             throw new RuntimeException("Stack is empty");
         }
         return elements.remove(elements.size() -1);
-    } //O(n)
+    } //O(1)
     public T peek() {
         if (isEmpty()) {
             throw new RuntimeException("Stack is empty");
         }
         return elements.get(elements.size() - 1);
-    } //O(n)
+    } //O(1)
 
     public boolean isEmpty() {
         return elements.isEmpty();

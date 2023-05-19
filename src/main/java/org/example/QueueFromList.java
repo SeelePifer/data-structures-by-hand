@@ -17,7 +17,7 @@ public final class QueueFromList <T>{
         items.addLast(item);
     }
 
-    public T dequeue() {
+    public T dequeue() { //O(1)
         if (isEmpty()) {
             throw new RuntimeException("Queue is empty");
         }
@@ -25,6 +25,7 @@ public final class QueueFromList <T>{
     }
 
     public T peek() {
+        //O(1)
         if (isEmpty()) {
             throw new RuntimeException("Queue is empty");
         }

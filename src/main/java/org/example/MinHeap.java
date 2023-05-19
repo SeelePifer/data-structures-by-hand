@@ -9,7 +9,7 @@ public final class MinHeap {
         heap = new ArrayList<>();
     }
 
-    public void add(int value){
+    public void add(int value){ //O(log(n)
         heap.add(value);
 
         int index = heap.size() - 1;

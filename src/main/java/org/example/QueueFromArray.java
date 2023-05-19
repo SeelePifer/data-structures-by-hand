@@ -17,14 +17,15 @@ public final class QueueFromArray <T>{
         items.add(item);
     }
 
-    public T dequeue() {
+
+    public T dequeue() { //O(1)
         if (isEmpty()) {
             throw new RuntimeException("Queue is empty");
         }
         return items.remove(0);
     }
 
-    public T peek() {
+    public T peek() { //O(1)
         if (isEmpty()) {
             throw new RuntimeException("Queue is empty");
         }

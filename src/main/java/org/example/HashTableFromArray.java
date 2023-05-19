@@ -12,7 +12,7 @@ public final class HashTableFromArray {
           table.add(new ArrayList<Entry>());
         }
     }
-    public void put(Object key, Object value){
+    public void put(Object key, Object value){ //O(n)
         int index = key.hashCode() % SIZE;
         ArrayList<Entry> entries = table.get(index);
         for (Entry entry : entries) {
@@ -23,7 +23,7 @@ public final class HashTableFromArray {
         }
         entries.add(new Entry(key, value));
     }
-    public Object get(Object key){
+    public Object get(Object key){ //O(n)
         int index = key.hashCode() % SIZE;
         ArrayList<Entry> entries = table.get(index);
         for (Entry entry: entries){

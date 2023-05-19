@@ -10,7 +10,7 @@ public final class HashTableFromChaining {
         table = new LinkedList[SIZE];
     }
 
-    public void put(Object key, Object value) {
+    public void put(Object key, Object value) { //O(n)
         int index = key.hashCode() % SIZE;
         if (table[index] == null) {
             table[index] = new LinkedList<HashTableFromArray.Entry>();
@@ -23,7 +23,7 @@ public final class HashTableFromChaining {
         }
         table[index].add(new HashTableFromArray.Entry(key, value));
     }
-    public Object get(Object key) {
+    public Object get(Object key) { //O(n)
         int index = key.hashCode() % SIZE;
         if (table[index] == null) {
             return null;

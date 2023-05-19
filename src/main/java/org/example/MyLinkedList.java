@@ -21,6 +21,7 @@ public final class MyLinkedList {
     }
 
     public int get(int index){
+        //O(n)
         if(index< 0 || index>= size){
             return -1;
         }
@@ -31,6 +32,7 @@ public final class MyLinkedList {
         return curr.value;
     }
     public void insert(int index, int val){
+        //O(n)
         if(index < 0 || index > size){
             return;
         }
@@ -50,6 +52,7 @@ public final class MyLinkedList {
     }
 
     public void append(int val ){
+        //o(n)
         Node newNode = new Node(val);
 
         if(head == null){
@@ -64,6 +67,7 @@ public final class MyLinkedList {
         size++;
     }
     public void remove(int index) {
+        //O(n)
         if (index < 0 || index >= size) {
             return;
         }

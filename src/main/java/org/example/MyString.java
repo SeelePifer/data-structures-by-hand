@@ -47,7 +47,7 @@ public final class MyString {
              return 0;
          }
          outer:
-         //quadratic time
+         //linear
          for(int i = 0; i < length - targetLenght + 1; i++) {
            for(int j = 0; j < targetLenght; j++) {
              if(characters[i + j] != target.characters[j]){
